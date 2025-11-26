@@ -1,0 +1,1732 @@
+<BMPTrainsProject id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.BMPTrainsProject</FullClassName>
+ <ProjectName>JLM Living East</ProjectName>
+ <FileName>E:\JLM Living\Civil\01 - SWMS Calcs\REV00\Nutrient Loading\BMP Trains\2025.04.11 - JLM Living East.bmpt</FileName>
+ <RainfallZone>Florida Zone 4</RainfallZone>
+ <MeanAnnualRainfall>53.00</MeanAnnualRainfall>
+ <AnalysisType>Specified Removal Efficiency</AnalysisType>
+ <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+ <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+ <TargetNMassLoad>26.530</TargetNMassLoad>
+ <TargetPMassLoad>5.946</TargetPMassLoad>
+ <TargetNFromPreLoad>0.000</TargetNFromPreLoad>
+ <TargetPFromPreLoad>0.000</TargetPFromPreLoad>
+ <CatchmentConfiguration>U</CatchmentConfiguration>
+ <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+ <numCatchments>1</numCatchments>
+ <currentCatchmentNum>1</currentCatchmentNum>
+ <Modified>True</Modified>
+ <LockedPreCondition>False</LockedPreCondition>
+ <InterestRate>0.000</InterestRate>
+ <ProjectDuration>0.000</ProjectDuration>
+ <CostOfWater>0.000</CostOfWater>
+ <id>0</id>
+ <Name></Name>
+ <Description></Description>
+ <Owner></Owner>
+<Catchment id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Catchment</FullClassName>
+ <ToID>0</ToID>
+ <Disabled>False</Disabled>
+ <CatchmentName>Basin 1</CatchmentName>
+ <AnalysisType>Specified Removal Efficiency</AnalysisType>
+ <Rainfall>53.00</Rainfall>
+ <RainfallZone>Florida Zone 4</RainfallZone>
+ <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+ <PreLandUseId>0</PreLandUseId>
+ <PreLandUseName>User Defined Values</PreLandUseName>
+ <PostLandUseId>0</PostLandUseId>
+ <PostLandUseName>Multi-Family: TN=2.320 TP=0.520</PostLandUseName>
+ <PreArea>26.62</PreArea>
+ <PreRationalCoefficient>0.20</PreRationalCoefficient>
+ <PreNonDCIACurveNumber>86.00</PreNonDCIACurveNumber>
+ <PreDCIAPercent>0.00</PreDCIAPercent>
+ <PostArea>26.62</PostArea>
+ <BMPArea>1.340</BMPArea>
+ <PostRationalCoefficient>0.42</PostRationalCoefficient>
+ <PostNonDCIACurveNumber>59.00</PostNonDCIACurveNumber>
+ <PostDCIAPercent>48.00</PostDCIAPercent>
+ <PreLoading></PreLoading>
+ <PostLoading></PostLoading>
+ <RequiredNTreatmentEfficiency>80.000</RequiredNTreatmentEfficiency>
+ <RequiredPTreatmentEfficiency>80.000</RequiredPTreatmentEfficiency>
+ <PreNConcentration>1.420</PreNConcentration>
+ <PrePConcentration>0.138</PrePConcentration>
+ <PostNConcentration>2.320</PostNConcentration>
+ <PostPConcentration>0.520</PostPConcentration>
+ <PreRunoffVolume>23.373</PreRunoffVolume>
+ <PostRunoffVolume>46.372</PostRunoffVolume>
+ <PreNLoading>40.923</PreNLoading>
+ <PrePLoading>3.977</PrePLoading>
+ <PostNLoading>132.649</PostNLoading>
+ <PostPLoading>29.732</PostPLoading>
+ <BMP1>Retention</BMP1>
+ <BMP2>Wet Detention</BMP2>
+ <BMP3>Stormwater Harvesting</BMP3>
+ <BMP4>None</BMP4>
+ <SelectedBMPType>Multiple BMP</SelectedBMPType>
+ <PreCompositeCN></PreCompositeCN>
+ <PreCompositeArea></PreCompositeArea>
+ <PostCompositeCN>0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+</PostCompositeCN>
+ <PostCompositeArea>0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+</PostCompositeArea>
+ <PreNCompositeEMC></PreNCompositeEMC>
+ <PrePCompositeEMC></PrePCompositeEMC>
+ <PostNCompositeEMC></PostNCompositeEMC>
+ <PostPCompositeEMC></PostPCompositeEMC>
+ <PreGWN>0.000</PreGWN>
+ <PreGWP>0.000</PreGWP>
+ <PostGWN>0.000</PostGWN>
+ <PostGWP>0.000</PostGWP>
+ <routing>BMPTrains_2020.DomainCode.CatchmentRouting</routing>
+ <id>1</id>
+ <Name></Name>
+ <Description></Description>
+ <Owner></Owner>
+<NoBMP id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.NoBMP</FullClassName>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>None</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention></RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction>0.000</MediaNPercentReduction>
+  <MediaPPercentReduction>0.000</MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency>0.000</PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency>0.000</PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</NoBMP>
+<Retention id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Retention</FullClassName>
+  <RetentionArea>1.340</RetentionArea>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent>No</WetDetentionEffluent>
+  <RequiredRetentionDepth>0.885</RequiredRetentionDepth>
+  <RequiredRetentionVolume>1.865</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.433</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Retention</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.952</RetentionVolume>
+  <RetentionDepth>0.452</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency>60</HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency>60</ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency>60</ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>51</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>51</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>78.967</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>17.699</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>78.967</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>17.699</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>2.320</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.520</GroundwaterTPConcentration>
+  <RechargeRate>8.002</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>53.683</BMPNMassLoadOut>
+  <BMPPMassLoadOut>12.032</BMPPMassLoadOut>
+  <NMassReductionLb>174.122</NMassReductionLb>
+  <PMassReductionLb>39.027</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>27.605</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>78.967</NRetained>
+  <PRetained>17.699</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</Retention>
+<Exfiltration id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Exfiltration</FullClassName>
+  <PipeSpan>0.0</PipeSpan>
+  <PipeRise>0.0</PipeRise>
+  <PipeLength>0.0</PipeLength>
+  <TrenchLength>0.0</TrenchLength>
+  <TrenchWidth>0.0</TrenchWidth>
+  <TrenchDepth>0.0</TrenchDepth>
+  <VoidRatio>0.00</VoidRatio>
+  <PipeVolumeCF></PipeVolumeCF>
+  <TrenchVolumeCF></TrenchVolumeCF>
+  <StorageVolumeAF>0.00</StorageVolumeAF>
+  <StorageVolumeIn>0.000</StorageVolumeIn>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>1.195</RequiredRetentionDepth>
+  <RequiredRetentionVolume>2.559</RequiredRetentionVolume>
+  <RemainingDepthNeeded>1.195</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Exfiltration</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</Exfiltration>
+<WetDetention id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.WetDetention</FullClassName>
+  <ResidenceTime>84</ResidenceTime>
+  <PermanentPoolPondDepth>0.00</PermanentPoolPondDepth>
+  <PermanentPoolArea>1.34</PermanentPoolArea>
+  <PermanentPoolVolume>10.610</PermanentPoolVolume>
+  <PermanentPoolVolume31>3.938</PermanentPoolVolume31>
+  <PermanentPoolVolumeOverWatershed>0.000</PermanentPoolVolumeOverWatershed>
+  <MinimumPermanentPoolVolume>17.82</MinimumPermanentPoolVolume>
+  <LittoralZoneEfficiencyCredit></LittoralZoneEfficiencyCredit>
+  <AdditionalPercentNLittoralRemoval></AdditionalPercentNLittoralRemoval>
+  <AdditionalPercentPLittoralRemoval></AdditionalPercentPLittoralRemoval>
+  <WetlandEfficiencyCredit></WetlandEfficiencyCredit>
+  <AdditionalPercentNWetlandRemoval>6</AdditionalPercentNWetlandRemoval>
+  <AdditionalPercentPWetlandRemoval>3</AdditionalPercentPWetlandRemoval>
+  <DetentionPercentPhosphorusRemoval>76.84</DetentionPercentPhosphorusRemoval>
+  <DetentionPercentNitrogenRemoval>42.43</DetentionPercentNitrogenRemoval>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Wet Detention</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.37</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency>34</ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency>68</ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>65</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>14</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>56.277</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>22.845</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>53.68</BMPNMassLoadIn>
+  <BMPPMassLoadIn>12.03</BMPPMassLoadIn>
+  <BMPNMassLoadOut>35.473</BMPNMassLoadOut>
+  <BMPPMassLoadOut>3.810</BMPPMassLoadOut>
+  <NMassReductionLb>124.091</NMassReductionLb>
+  <PMassReductionLb>50.373</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>46.372</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>56.277</NRetained>
+  <PRetained>22.845</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</WetDetention>
+<Greenroof id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Greenroof</FullClassName>
+  <RainfallStation></RainfallStation>
+  <GreenroofArea>0.000</GreenroofArea>
+  <IrrigationDemand>0.000</IrrigationDemand>
+  <RainfallExcess>0.000</RainfallExcess>
+  <AverageYearlyDemand>0.000</AverageYearlyDemand>
+  <AverageSupplyHarvested>0.000</AverageSupplyHarvested>
+  <AverageSupplementalWater>0.000</AverageSupplementalWater>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Greenroof</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</Greenroof>
+<RainGarden id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.RainGarden</FullClassName>
+  <ProvidedRetentionVolume>0.000</ProvidedRetentionVolume>
+  <SystemTypes>System.String[]</SystemTypes>
+  <VoidFraction>0.000</VoidFraction>
+  <WaterAboveMedia>0.000</WaterAboveMedia>
+  <VolumeStorageCF>0.000</VolumeStorageCF>
+  <VolumeStorageIn>0.000</VolumeStorageIn>
+  <MediaAreaSF>0.000</MediaAreaSF>
+  <MinimumMediaArea>0.000</MinimumMediaArea>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Rain Garden</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</RainGarden>
+<StormwaterHarvesting id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.StormwaterHarvesting</FullClassName>
+  <RationalCforCAreaAt3inches>0.823</RationalCforCAreaAt3inches>
+  <SolveForChoice>Harvest Efficiency</SolveForChoice>
+  <HarvestVolume>10.610</HarvestVolume>
+  <HarvestEfficiency></HarvestEfficiency>
+  <CalculatedHarvestEfficiency>49</CalculatedHarvestEfficiency>
+  <IrrigationArea>10.300</IrrigationArea>
+  <ContributingAreaSF>0.000</ContributingAreaSF>
+  <EquivalentImperviousArea>20.805</EquivalentImperviousArea>
+  <HarvestVolumeOverEIA>6.120</HarvestVolumeOverEIA>
+  <AvailableHarvestRate>1.000</AvailableHarvestRate>
+  <HarvestRate>5341</HarvestRate>
+  <HarvestRateOverEIA>0.071</HarvestRateOverEIA>
+  <RequiredHarvestRateCFD>0.000</RequiredHarvestRateCFD>
+  <RequiredHarvestRateINWEEK>0.000</RequiredHarvestRateINWEEK>
+  <HarvestWaterDemand>14.543</HarvestWaterDemand>
+  <HarvestWaterSupply>14.804</HarvestWaterSupply>
+  <SupplementalWater>0.000</SupplementalWater>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Stormwater Harvesting</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency>49</ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency>49</ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>60</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>60</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>65.588</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>14.701</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>67.061</BMPNMassLoadOut>
+  <BMPPMassLoadOut>15.031</BMPPMassLoadOut>
+  <NMassReductionLb>144.622</NMassReductionLb>
+  <PMassReductionLb>32.415</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>65.588</NRetained>
+  <PRetained>14.701</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</StormwaterHarvesting>
+<RainwaterHarvesting id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.RainwaterHarvesting</FullClassName>
+  <RoofType></RoofType>
+  <SolveForChoice></SolveForChoice>
+  <HarvestVolume>0.000</HarvestVolume>
+  <HarvestEfficiency>0.000</HarvestEfficiency>
+  <CalculatedHarvestEfficiency>0.000</CalculatedHarvestEfficiency>
+  <IrrigationArea>0.000</IrrigationArea>
+  <ContributingAreaSF>0.000</ContributingAreaSF>
+  <EquivalentImperviousArea>0.000</EquivalentImperviousArea>
+  <HarvestVolumeOverEIA>0.000</HarvestVolumeOverEIA>
+  <AvailableHarvestRate>0.000</AvailableHarvestRate>
+  <HarvestRate>0.000</HarvestRate>
+  <HarvestRateOverEIA>0.000</HarvestRateOverEIA>
+  <RequiredHarvestRateCFD>0.000</RequiredHarvestRateCFD>
+  <RequiredHarvestRateINWEEK>0.000</RequiredHarvestRateINWEEK>
+  <HarvestWaterDemand>0.000</HarvestWaterDemand>
+  <HarvestWaterSupply>0.000</HarvestWaterSupply>
+  <SupplementalWater>0.000</SupplementalWater>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Rainwater Harvesting</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</RainwaterHarvesting>
+<PerviousPavement id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.PerviousPavement</FullClassName>
+  <PerviousPavements>BMPTrains_2020.DomainCode.AvailablePerviousPavements</PerviousPavements>
+  <Thickness>0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	0.00	</Thickness>
+  <Storage></Storage>
+  <SurfaceArea>0.000</SurfaceArea>
+  <TotalStorage>0.000</TotalStorage>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Pervious Pavement</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</PerviousPavement>
+<Filtration id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Filtration</FullClassName>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Filtration</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</Filtration>
+<Swale id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.Swale</FullClassName>
+  <SwaleW>0.000</SwaleW>
+  <SwaleB>0.000</SwaleB>
+  <SwaleL>0.000</SwaleL>
+  <ImperviousL>0.000</ImperviousL>
+  <ImperviousW>0.000</ImperviousW>
+  <PerviousW>0.000</PerviousW>
+  <SwaleS>0.000</SwaleS>
+  <ManningsN>0.000</ManningsN>
+  <InfiltrationRate>0.000</InfiltrationRate>
+  <SwaleZ>0.000</SwaleZ>
+  <InfiltratedStorageDepth>0.000</InfiltratedStorageDepth>
+  <SwaleH>0.000</SwaleH>
+  <SwaleLb>0.000</SwaleLb>
+  <SwaleNb></SwaleNb>
+  <ContributingAreaSF></ContributingAreaSF>
+  <TreatmentAreaAcres>0.000</TreatmentAreaAcres>
+  <RainfallIntensity>0.000</RainfallIntensity>
+  <RainfallExcessArea>0.000</RainfallExcessArea>
+  <RainfallExcessAreaSF></RainfallExcessAreaSF>
+  <FlowInSwale>0.000</FlowInSwale>
+  <CalculatedFlowInSwale>0.000</CalculatedFlowInSwale>
+  <DepthOfFlow>0.000</DepthOfFlow>
+  <WettedPerimeter>0.000</WettedPerimeter>
+  <UpstreamSwaleBlockVolume>0.000</UpstreamSwaleBlockVolume>
+  <TotalSwaleBlockVolume>0.000</TotalSwaleBlockVolume>
+  <UseConcentrationReduction></UseConcentrationReduction>
+  <SurfaceDischargeNReduction></SurfaceDischargeNReduction>
+  <SurfaceDischargePReduction></SurfaceDischargePReduction>
+  <GroundwaterNReduction></GroundwaterNReduction>
+  <GroundwaterPReduction></GroundwaterPReduction>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Swale</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</Swale>
+<TreeWell id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.TreeWell</FullClassName>
+  <WellDepth>0.000</WellDepth>
+  <WellStorage>0.000</WellStorage>
+  <WellLength>0.000</WellLength>
+  <WellWidth>0.000</WellWidth>
+  <SoilStorageCapacity>0.000</SoilStorageCapacity>
+  <NumWells>1</NumWells>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Tree Well</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</TreeWell>
+<VegetatedNaturalBuffer id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.VegetatedNaturalBuffer</FullClassName>
+  <BufferW>0.000</BufferW>
+  <BufferL>0.000</BufferL>
+  <BufferDepth>0.000</BufferDepth>
+  <BufferFeederWidth>0.000</BufferFeederWidth>
+  <SoilStorageCapacity>0.000</SoilStorageCapacity>
+  <BufferWidthSlope>0.000</BufferWidthSlope>
+  <BufferNRemovalEfficiency></BufferNRemovalEfficiency>
+  <BufferPRemovalEfficiency></BufferPRemovalEfficiency>
+  <AnnualCaptureEfficiency>0.000</AnnualCaptureEfficiency>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Vegetated Natural Buffer</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</VegetatedNaturalBuffer>
+<VegetatedFilterStrip id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.VegetatedFilterStrip</FullClassName>
+  <BufferW>0.000</BufferW>
+  <BufferL>0.000</BufferL>
+  <BufferDepth>0.000</BufferDepth>
+  <BufferFeederWidth>0.000</BufferFeederWidth>
+  <SoilStorageCapacity>0.000</SoilStorageCapacity>
+  <BufferWidthSlope>0.000</BufferWidthSlope>
+  <BufferNRemovalEfficiency></BufferNRemovalEfficiency>
+  <BufferPRemovalEfficiency></BufferPRemovalEfficiency>
+  <AnnualCaptureEfficiency>0.000</AnnualCaptureEfficiency>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Vegetated Natural Buffer</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</VegetatedFilterStrip>
+<UserDefinedBMP id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.UserDefinedBMP</FullClassName>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>User Defined BMP</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>46.372</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.000</RetentionVolume>
+  <RetentionDepth>0.000</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency></HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency></ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency></ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency>80</RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency>80</RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>0.000</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>0.000</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>0.000</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>0.000</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>132.649</BMPNMassLoadOut>
+  <BMPPMassLoadOut>29.732</BMPPMassLoadOut>
+  <NMassReductionLb>0.000</NMassReductionLb>
+  <PMassReductionLb>0.000</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>0.000</NRetained>
+  <PRetained>0.000</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</UserDefinedBMP>
+<MultipleBMP id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.MultipleBMP</FullClassName>
+  <RetentionCount>1</RetentionCount>
+  <RequiredWaterQualityVolume>0.000</RequiredWaterQualityVolume>
+  <WetDetentionEffluent></WetDetentionEffluent>
+  <RequiredRetentionDepth>0.000</RequiredRetentionDepth>
+  <RequiredRetentionVolume>0.000</RequiredRetentionVolume>
+  <RemainingDepthNeeded>0.000</RemainingDepthNeeded>
+  <TreatmentMediaVolume>0.000</TreatmentMediaVolume>
+  <TreatmentMediaDepth>0.000</TreatmentMediaDepth>
+  <CatchmentID>1</CatchmentID>
+  <CatchmentName>Basin 1</CatchmentName>
+  <BMPType>Multiple BMP</BMPType>
+  <BMPName></BMPName>
+  <HelpURL>http://stormwater.ucf.edu/</HelpURL>
+  <ReportType>All Properties</ReportType>
+  <AnalysisType>Specified Removal Efficiency</AnalysisType>
+  <DoGroundwaterAnalysis>No</DoGroundwaterAnalysis>
+  <WatershedArea>26.62</WatershedArea>
+  <WatershedNDCIACurveNumber>59.00</WatershedNDCIACurveNumber>
+  <WatershedDCIAPercent>48.00</WatershedDCIAPercent>
+  <RationalCoefficient>0.42</RationalCoefficient>
+  <Rainfall>53.00</Rainfall>
+  <RainfallZone>Florida Zone 4</RainfallZone>
+  <RunoffVolume>18.766</RunoffVolume>
+  <ContributingArea>25.280</ContributingArea>
+  <RetentionVolume>0.952</RetentionVolume>
+  <RetentionDepth>0.452</RetentionDepth>
+  <DelayTime>0.000</DelayTime>
+  <DelayFactor>0.000</DelayFactor>
+  <DelayEfficiency>0.000</DelayEfficiency>
+  <HydraulicCaptureEfficiency>60</HydraulicCaptureEfficiency>
+  <RequiredNTreatmentEfficiency>80</RequiredNTreatmentEfficiency>
+  <RequiredPTreatmentEfficiency>80</RequiredPTreatmentEfficiency>
+  <ProvidedNTreatmentEfficiency>86</ProvidedNTreatmentEfficiency>
+  <ProvidedPTreatmentEfficiency>94</ProvidedPTreatmentEfficiency>
+  <AdjustedNTreatmentEfficiency>0.000</AdjustedNTreatmentEfficiency>
+  <AdjustedPTreatmentEfficiency>0.000</AdjustedPTreatmentEfficiency>
+  <RemainingNTreatmentEfficiency></RemainingNTreatmentEfficiency>
+  <RemainingPTreatmentEfficiency></RemainingPTreatmentEfficiency>
+  <GroundwaterNTreatmentEfficiency>0.000</GroundwaterNTreatmentEfficiency>
+  <GroundwaterPTreatmentEfficiency>0.000</GroundwaterPTreatmentEfficiency>
+  <GroundwaterNMassLoadIn>114.716</GroundwaterNMassLoadIn>
+  <GroundwaterPMassLoadIn>27.805</GroundwaterPMassLoadIn>
+  <GroundwaterNMassLoadOut>78.967</GroundwaterNMassLoadOut>
+  <GroundwaterPMassLoadOut>17.699</GroundwaterPMassLoadOut>
+  <GroundwaterTNConcentration>0.000</GroundwaterTNConcentration>
+  <GroundwaterTPConcentration>0.000</GroundwaterTPConcentration>
+  <RechargeRate>0.000</RechargeRate>
+  <BMPNMassLoadIn>132.65</BMPNMassLoadIn>
+  <BMPPMassLoadIn>29.73</BMPPMassLoadIn>
+  <BMPNMassLoadOut>17.933</BMPNMassLoadOut>
+  <BMPPMassLoadOut>1.926</BMPPMassLoadOut>
+  <NMassReductionLb>252.949</NMassReductionLb>
+  <PMassReductionLb>61.311</PMassReductionLb>
+  <BMPVolumeIn>46.372</BMPVolumeIn>
+  <BMPVolumeOut>0.000</BMPVolumeOut>
+  <GWVolumeIn>0.000</GWVolumeIn>
+  <GWVolumeOut>0.000</GWVolumeOut>
+  <NRetained>114.716</NRetained>
+  <PRetained>27.805</PRetained>
+  <LandCost>0.00</LandCost>
+  <UnitCost>0.000</UnitCost>
+  <FixedCost>0.00</FixedCost>
+  <ExpectedLife></ExpectedLife>
+  <CostPerAcreFoot>0.00</CostPerAcreFoot>
+  <BMPCost>0.00</BMPCost>
+  <HarvestedWater></HarvestedWater>
+  <MaintenanceCost>0.00</MaintenanceCost>
+  <PVofMaintenanceCost>0.00</PVofMaintenanceCost>
+  <PVOfAnnualCost>0.000</PVOfAnnualCost>
+  <AnnualCostRecovery>0.00</AnnualCostRecovery>
+  <TotalAnnualCost>0.00</TotalAnnualCost>
+  <FutureReplacementCost>0.00</FutureReplacementCost>
+  <PresentValueOfReplacement>0.00</PresentValueOfReplacement>
+  <PresentWorth>0.00</PresentWorth>
+  <CostPerPoundNRemoved>0.000</CostPerPoundNRemoved>
+  <CostPerPoundPRemoved>0.000</CostPerPoundPRemoved>
+  <RetentionOrDetention>Retention</RetentionOrDetention>
+  <MediaVolume>0.000</MediaVolume>
+  <MediaMixType>Not Specified</MediaMixType>
+  <MediaNPercentReduction></MediaNPercentReduction>
+  <MediaPPercentReduction></MediaPPercentReduction>
+  <PostMediaNTreatmentEfficiency></PostMediaNTreatmentEfficiency>
+  <PostMediaPTreatmentEfficiency></PostMediaPTreatmentEfficiency>
+  <TNEMC>2.320</TNEMC>
+  <TPEMC>0.520</TPEMC>
+  <id>0</id>
+  <Name></Name>
+  <Description></Description>
+  <Owner></Owner>
+</MultipleBMP>
+<CatchmentRouting id = "1">
+<FullClassName>BMPTrains_2020.DomainCode.CatchmentRouting</FullClassName>
+  <IsValid>False</IsValid>
+  <BMPType>Multiple BMP</BMPType>
+  <UpstreamBMPType>Multiple BMP</UpstreamBMPType>
+  <UpstreamNodes></UpstreamNodes>
+  <FromID>1</FromID>
+  <ToID>0</ToID>
+  <Nitrogen>BMPTrains_2020.DomainCode.RoutingParameters</Nitrogen>
+  <Phosphorus>BMPTrains_2020.DomainCode.RoutingParameters</Phosphorus>
+  <HydraulicEfficiency>100.000</HydraulicEfficiency>
+  <VolumeFromCatchment>46.372</VolumeFromCatchment>
+  <VolumeIn>46.372</VolumeIn>
+  <VolumeOut>46.372</VolumeOut>
+  <RoutingNotes></RoutingNotes>
+  <id>1</id>
+  <Name>Basin 1</Name>
+  <Description></Description>
+  <Owner></Owner>
+</CatchmentRouting>
+</Catchment>
+</BMPTrainsProject>
+
